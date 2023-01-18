@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     src: url('../fonts/montserrat-v14-latin-500.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -59,21 +59,21 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 110%;
     height: auto;
 }
 
 .wrapper {
-    max-width: 1180px;
+    max-width: 1160px;
     margin: 1 auto;
     position: relative;
 }
 
 .section-tytle {
     font-style: normal;
-    font-weight: 800;
-    font-size: 49px;
-    line-height: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
     position: relative;
     color: #313131;
     z-index: 10;
@@ -98,8 +98,8 @@ a {
     display: grid;
     grid-template: 1fr / 1fr minmax(auto, 350px) minmax(auto, 1000px) 1fr;
     align-items: center;
-    height: 80px;
-    padding: 16px;
+    height: 90px;
+    padding: 14px;
 }
 
 .header__burger {
@@ -115,7 +115,7 @@ a {
 }
 
 .header__logo img, .footer__logo img {
-    max-width: 60px;
+    max-width: 40px;
 }
 
 .header__logo img, .header__logo span, .footer__logo img, .footer__logo span {
@@ -138,7 +138,7 @@ a {
 
 .header__logo span, .footer__logo span {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
 }
 
@@ -150,7 +150,7 @@ a {
 
 .header__link, .footer__link {
     color: #4B4B4B;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     position: relative;
     z-index: 2;
@@ -159,11 +159,11 @@ a {
 .header__link::after, .footer__link::after {
     display: block;
     position: absolute;
-    bottom: 4px;
+    bottom: 6px;
     left: 0;
     width: 0;
     height: 2px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.752);
     content: "";
     transition: width 0.3s ease-out;
 }
@@ -176,7 +176,7 @@ a {
     font-weight: bold;
     color: white;
     background: #ED1942;
-    padding: 12px 20px 12px;
+    padding: 14px 20px 14px;
     border-radius: 40px;
     letter-spacing: 1px;
     box-shadow: 1px 1px 1px black;
